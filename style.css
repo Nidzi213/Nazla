@@ -22,11 +22,19 @@ body {
 
 .container {
     width: 100%;
-    max-width: 480px; /* Standar lebar tampilan mobile yang nyaman */
+    max-width: 480px;
     padding: 20px;
     text-align: center;
-}
+    
+    /* Tambahkan Background Hitam Transparan (0.6 artinya 60% gelap) */
+    background-color: rgba(0, 0, 0, 0.6); 
+    
+    /* Atau kalau mau kotak Putih Transparan pakai ini: */
+    /* background-color: rgba(255, 255, 255, 0.8); */
 
+    border-radius: 15px; /* Supaya ujung kotaknya tumpul */
+    margin-top: 20px;
+}
 .profile-pic {
     width: 100px;
     height: 100px;
@@ -48,14 +56,24 @@ body {
 h1 { 
     font-size: 22px; 
     margin-bottom: 5px; 
-    color: #333;
+    
+    /* UBAH WARNA JADI PUTIH */
+    color: white; 
+    
+    /* TAMBAHKAN BAYANGAN HITAM AGAR JELAS */
+    text-shadow: 2px 2px 4px #000000; 
 }
 
 p { 
-    color: #666; 
+    /* WARNA PUTIH AGAK KEKUNINGAN DIKIT BIAR ENAK DIBACA */
+    color: #f0f0f0; 
+    
     margin-bottom: 30px; 
     font-size: 14px;
     line-height: 1.5;
+    
+    /* TAMBAHKAN BAYANGAN JUGA */
+    text-shadow: 1px 1px 3px #000000;
 }
 
 /* Card Style */
