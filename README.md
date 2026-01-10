@@ -1,2 +1,2 @@
 # Nazla
-Semoga gak lu buka yang ada di sini ya
+Kayaknya lu bakal capek bacanya, cuman semoga enggak lu buka ya. Gua ngerasa malu dan alay banget bikin ginian wkwk
