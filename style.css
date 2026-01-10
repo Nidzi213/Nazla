@@ -7,7 +7,11 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
+    background-image: url('https://github.com/Nidzi213/Nazla/blob/main/Foto/Kolase.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
     margin: 0;
     padding: 0;
     display: flex;
