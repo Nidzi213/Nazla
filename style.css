@@ -10,6 +10,7 @@ body {
     background-image: url('https://github.com/Nidzi213/Nazla/blob/main/Foto/Kolase.png?raw=true');
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     background-repeat: no-repeat;
     
     margin: 0;
@@ -104,6 +105,9 @@ p {
     text-align: left; /* Teks deskripsi rata kiri agar lebih rapi */
     font-size: 13px;
     
+    color: #000000; 
+    text-shadow: none;
+
     /* PENTING: Agar teks XXXXX yang panjang turun ke bawah (tidak melebar ke samping) */
     word-wrap: break-word; 
     overflow-wrap: break-word; 
